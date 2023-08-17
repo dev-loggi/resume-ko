@@ -80,10 +80,12 @@
 /* 모든 텍스트 요소에 폰트 설정 */
 h1, h2, h3, h4, h5, h6, b, p, li {
     font-family: 'S-CoreDream';
+    text-align: start;
 }
 
 /* 각 섹션 제목 */
 h3 {
+    text-align: center;
     font-weight: 500;
     color: #D9730D;
 }
@@ -95,20 +97,70 @@ h3 {
 
 /* 마크다운 리스트 */
 li {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* left side 의 제목 */
-.layout .details h4 {
-    font-weight: 500;
+
+.layout {
+    /* Content 의 Left Layout 요소 */
+    .details {
+        justify-content: start; /* Left Layout 상하 가운데 정렬 제거 (상단 배치) */
+        padding-top: 6px; /* right content 의 마크다운 컨텐츠와 상단 높이를 맞추기 위함 */
+
+        h4 {
+            font-weight: 500;
+        }
+        .fab {
+            font-size: 1.8rem;
+            margin-left: 1px;
+        }
+//         .fa-github::after {
+//             content: "Github";
+//             font-family: 'S-CoreDream';
+//             font-weight: 400;
+//             font-size: 1.5rem;
+//         }
+//         .fa-youtube::after {
+//             content: "YouTube";
+//             font-family: 'S-CoreDream';
+//             font-weight: 400;
+//             font-size: 1.5rem;
+//         }
+//         a {
+//             position: relative; /* 부모 요소의 기준으로 아이콘 위치 설정 */
+//             padding-left: 22px; /* 텍스트와 아이콘 간격 설정 */
+//         }
+//         a::before {
+//             content: ""; /* 가상 요소의 내용 설정 */
+//             position: absolute; /* 위치를 절대 위치로 설정 */
+//             left: 0; /* 아이콘을 텍스트 왼쪽에 배치 */
+//             top: 50%; /* 수직 중앙 정렬을 위해 top 값 설정 */
+//             transform: translateY(-50%); /* 수직 중앙 정렬을 위한 변환 */
+//             width: 16px; /* 아이콘 너비 설정 */
+//             height: 16px; /* 아이콘 높이 설정 */
+//             background-image: url('https://kt-aivle-loggi-bucket.s3.ap-northeast-2.amazonaws.com/images/github-icon-128.png'); /* 아이콘 이미지 설정 */
+//             background-size: cover; /* 이미지 크기 조절 */
+//         }
+//         .link {
+//             padding-top: 2px;
+//             color: gray;
+//             font-size: 1.3rem;
+//             font-weight: 400;
+//             text-decoration: underline;
+//         }
+    }
+    /* Content 의 Right Layout 요소 */
+    .content {
+        p.quote {
+            /* padding: 0 0 0.5rem 0; */
+            padding: 6px 0.5rem 0.5rem 0.5rem;
+            text-align: start;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
 }
 
-/* quote */
-p.quote {
-    text-align: start;
-    font-style: normal;
-    font-weight: 600;
-}
 
 /*
 i.fab.fa-github {

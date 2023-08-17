@@ -15,8 +15,9 @@ website: github.com/dev-loggi
 darkmode: false
 
 # Social links
-# twitter_username: facespics
 github_username: dev-loggi
+# youtube_username: user-pk6no1ub6p
+# twitter_username: facespics
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -31,12 +32,12 @@ github_username: dev-loggi
 
 # Additional icon links
 additional_links:
-- title: 블로그
+- title: Blog
   icon: fas fa-blog
   url: https://jsl663.tistory.com
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+- title: YouTube Link
+  icon: fab fa-youtube
+  url: https://www.youtube.com/channel/UCYPnZS7wsGgdaCM1GYAaKrg
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -47,11 +48,17 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 디자인에 욕심이 많은 안드로이드 개발자 조성록입니다.<br/>
-  Android Modern UI/UX 관심과 이해도가 높습니다.<br/>
-  Kotlin, OOP, Design Pattern, Functional Programming, Clean Code, Clean Architecture<br/>
-  소프트웨어 아키텍처와 프로그래밍 패러다임에 관심이 많습니다.
+about_content: |
+  안녕하세요. 디자인에 관심이 많은 안드로이드 개발자 조성록입니다.<br/>
+  학부 때 C#으로 윈도우 게임을 만들 때부터 UI/UX에 대한 남다른 관심을 가지며 디자인 트렌드에 대한 이해도를 갖추게 되었습니다.<br/>
+  이는 앱 개발에서도 이어져 안드로이드 뷰 시스템에 대한 이해도와 다양한 CustomView 활용 및 Animation/Transition, 유저의 터치 인터렉션, 그리고 공통 디자인 시스템 모듈화 등 UI 개발 역량을 꾸준히 증진해왔습니다.
+  <br/><br/>
+  
+  프로그래밍 역량과 개발 기술력 향상에 대해서도 꾸준히 노력해 왔습니다.<br/>
+  6개월간 인턴으로 근무하며 앱 서비스 개발 역량 및 배포 경험을 갖고 있으며, 지속적인 프로젝트 개발 활동을 통해 디자인 패턴과 클린 아키텍처, Jetpack 라이브러리 등 최신 고급 기술 스택의 활용 능력과 이해도를 높여왔습니다.
+  <br/><br/>
+  
+  최근 팀 프로젝트에서는 프론트/백엔드를 넘어 테크 리드 역할을 맡아 시스템을 설계하고 팀의 기술적인 지원을 하며 개발에 대한 시야를 좀 더 넓힐 수 있었던 좋은 경험이 되었습니다.
 
 content:
   # Experience
@@ -64,12 +71,20 @@ content:
         # link_text: boringcompany.com
         sub_title: 안드로이드 앱 개발 (인턴)
         caption: 2017.03 - 2017.08
+        additional_links:
+          - title: Google Play Link
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.goalgetter.goalgetterapp
         quote: >
-          소셜 목표 일기 "GoalGetter" SNS 안드로이드 앱 서비스 개발
+          소셜 목표 일기 "GoalGetter" SNS 모바일 앱 서비스 개발
         description: |
-          - 6개월 인턴십 기간 동안 개발하여 스토어에 출시한 첫 실무 앱
+          - Android, Java
+          - 6개월 인턴십 기간 동안 개발하여 스토어에 배포한 첫 실무 앱
           - 회원, 게시물, 메신저, 광고 등 총 23개 화면 및 기능 개발
+          - ConstraintLayout, RecyclerView 도입
           - SQLite를 활용하여 메신저 성능 개선
+          
+          [개발 내용 더보기](https://www.notion.so/dev-loggi/GoalGetter-d3a18b465fad46519bf5f29e45e6c904?pvs=4)
 
   # Education
   - title: Education
@@ -97,21 +112,113 @@ content:
   - title: Projects
     layout: list
     content:
+      # 퍼니버니
       - layout: left
         title: 퍼니버니
         caption: 2023.06 - 2023.07
         sub_title: Tech Lead, Android
         additional_links:
-          - title: KT-AIVLE-3rd-AI-Team10/funibuni-fe-android
+          - title: Github Link
             icon: fab fa-github
-            url: https://github.com/KT-AIVLE-3rd-AI-Team10/funibuni-fe-android
+            url: https://github.com/KT-AIVLE-3rd-AI-Team10/funibuni-introduce
+          - title: YouTube Link
+            icon: fab fa-youtube
+            url: https://youtu.be/N-wBxebZWTY
         quote: >
           AI 기반 대형생활폐기물 간편 배출 앱
         description: |
           - KT AIVLE School 6인 팀 프로젝트 (우수상🏆)
           - AI 모델 설계, 시스템 아키텍처, ERD, API 설계, 테스트, 서버 구축 등 개발 기술 코치 담당
           - Clean Architecture, MVVM, Repository 패턴 활용하여 관심사 분리
+          - Coroutines & Flow 를 활용하여 비동기 프로그래밍과 UiState 관리
           - 공통 Design System 모듈화
+      # 동영상 Ctrl+F
+      - layout: left
+        title: 동영상 Ctrl＋F
+        caption: 2023.04 - 2023.06
+        sub_title: Tech Lead, Frontend
+        additional_links:
+          - title: Github Link
+            icon: fab fa-github
+            url: https://github.com/Video-CtrlF/video-ctrlf-introduce
+          - title: YouTube Link
+            icon: fab fa-youtube
+            url: https://youtu.be/UvRD_n5bfaQ
+        quote: >
+          AI 기반 유튜브 동영상 속 텍스트 검색 서비스 (Chrome Extensions)
+        description: |
+          - K-Digital Training Hackathon 5인 팀 프로젝트 (본선 진출)
+          - 유튜브 홈페이지 내에 동영상에 대한 텍스트 검색 기능 구현
+          - SPA, CORS 문제 해결
+          - 이미지 유사도 알고리즘 SSIM, 연속적으로 반복되는 문장을 제거해주는 알고리즘을 구현하여 AI 모델 추론 시간 단축
+      # 뭐더라
+      - layout: left
+        title: 뭐더라
+        caption: 2021.11 - 2022.03
+        sub_title: Android, Backend
+        additional_links:
+          - title: Github Link
+            icon: fab fa-github
+            url: https://github.com/dev-loggi/mwodeola-android
+          - title: YouTube Link
+            icon: fab fa-youtube
+            url: https://youtu.be/JI3wjMUU__s
+        quote: >
+          웹 사이트 계정 및 금융 계좌 등 개인정보 관리 안드로이드 앱
+        description: |
+          - 앱 서비스 개발 1인 프로젝트
+          - 기획, 설계, 디자인(UI/UX), 보안, 앱, 서버 개발
+          - 회원 기능, 계정 아이디/비밀번호 저장, 앱 화면 잠금, 계정 비밀번호 확인 시 암호 인증(이중 잠금), 로그인 자동 완성 서비스(Android Autofillframework) 기능 개발
+          - 각 계정마다 썸네일 아이콘을 지정하여 UI/UX를 향상시키고, 사용 편의성을 위해 아이콘 생성 자동화 로직 구현
+          - 다중 계정, SNS 아이디로 가입한 계정에 대한 별도 로직 및 DB 설계
+          - 앱/서버 보안 프로세스 설계 및 구축
+
+  # Side Projects
+  - title: Side Projects
+    layout: list
+    content:
+      # 카카오버스 클론 앱
+      - layout: left
+        title: 카카오버스 클론 앱
+        caption: 2019.09 - 2022.11
+        sub_title: Android
+#        link: https://github.com/dev-loggi/kakaobus-clone
+#        link_text: Github Link
+        additional_links:
+          - title: Github Link
+            icon: fab fa-github
+            url: https://github.com/dev-loggi/kakaobus-clone
+          - title: YouTube Link
+            icon: fab fa-youtube
+            url: https://youtu.be/mzymEDLK_8I
+        quote: >
+          카카오버스 앱 일부 기능 및 화면 최대한 비슷하게 구현해보기
+        description: |
+          - Android, Kotlin, MVP
+          - 공공 데이터 포털 내 "정류소 및 버스 도착 정보 API" 연동
+          - 정류소 검색, 정류소 별 버스 노선 및 실시간 도착 정보 안내, 버스 노선 및 정류소 즐겨찾기, 승차 알림 기능 구현
+      # WATCHA 클론 앱
+      - layout: left
+        title: WATCHA 클론 앱
+        caption: 2019.02 - 2019.04
+        sub_title: Android
+#        link: https://github.com/dev-loggi/watcha-clone
+#        link_text: Github Link
+        additional_links:
+          - title: Github Link
+            icon: fab fa-github
+            url: https://github.com/dev-loggi/watcha-clone
+          - title: YouTube Link
+            icon: fab fa-youtube
+            url: https://youtu.be/lfmCE_RQ7pY
+        quote: >
+          영화 OTT 서비스 WATCHA 앱 일부 기능 및 화면 최대한 비슷하게 구현해보기
+        description: |
+          - Android, Kotlin, MVP
+          - 메인 화면, 영화 검색, 영화 디테일 정보, 평점 매기기, 동영상 플레이어 기능 구현
+          - Animation & Transition 효과 구현
+          - 동영상 플레이어에 Exoplayer 라이브러리 활용. 터치 인터페이스 구현
+          
 
   # Skills
   - title: Skills
@@ -124,12 +231,12 @@ content:
           - Multi Module, Clean Architecture, Repository Pattern, MVVM, MVP
           - Jetpack AAC (ViewModel, LiveData, DataBinding), Navigation
           - Dagger Hilt
-          - Retrofit2, Okhttp3, Coroutines Flow
+          - Retrofit2, Okhttp3, Coroutines, Flow
           - Room, Datastore
       - layout: left
         title: Backend (하)
         description: |
-          - AWS EC2, S3, RDS
+          - AWS EC2, S3
           - NGINX, uWSGI
           - Django, Python
           - REST API, JWT
