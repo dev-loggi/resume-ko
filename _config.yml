@@ -147,7 +147,7 @@ content:
         quote: >
           AI 기반 유튜브 동영상 속 텍스트 검색 서비스 (Chrome Extensions)
         description: |
-          - K-Digital Training Hackathon 5인 팀 프로젝트 (본선 진출)
+          - K-Digital Training Hackathon 5인 팀 프로젝트 (예선 통과)
           - 유튜브 홈페이지 내에 동영상에 대한 텍스트 검색 기능 구현
           - SPA, CORS 문제 해결
           - 이미지 유사도 알고리즘 SSIM 을 통해 AI 모델 추론 시간을 대폭 단축
