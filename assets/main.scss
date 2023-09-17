@@ -77,6 +77,11 @@
     font-display: swap;
 }
 
+// 색상 코드 참조: https://html-color-codes.info/Korean/
+
+// a태그 색상 코드 변수
+$a-color-custom-blue: #2E64FE;
+
 /* 모든 텍스트 요소에 폰트 설정 */
 h1, h2, h3, h4, h5, h6, b, p, li {
     font-family: 'S-CoreDream';
@@ -100,6 +105,15 @@ li {
     line-height: 1.7;
 }
 
+div.container.header-container p > a {
+    color: $a-color-custom-blue;
+}
+
+/* About Me 컨테이너의 하위 <a> 태그 */
+.intro-container a {
+    font-weight: 600;
+    color: $a-color-custom-blue;
+}
 
 .layout {
     /* Content 의 Left Layout 요소 */
@@ -118,6 +132,10 @@ li {
         .link {
             font-size: 1.3rem;
             color: blue;
+        }
+        /* 유튜브 아이콘 */
+        a:nth-child(2) > i {
+            color: red;
         }
 //         .fa-github::after {
 //             content: "Github";
@@ -164,15 +182,15 @@ li {
             font-weight: 600;
         }
         a {
-            color: Blue;
             font-weight: 600;
+            color: $a-color-custom-blue;
+            // text-decoration: underline;
         }
         strong {
             font-weight: 700;
         }
     }
 }
-
 
 /*
 i.fab.fa-github {
