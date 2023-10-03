@@ -88,7 +88,7 @@ content:
           소셜 목표 일기 "GoalGetter" SNS 모바일 앱 서비스 개발
         description: |
           __`Android` `Java`__
-          - 6개월 인턴십 기간 동안 개발하여 스토어에 배포한 첫 실무 앱
+          - 서비스 초기 1.0 버전 개발 및 테스트, 의뢰인 피드백 반영, 배포 작업
           - 회원, 게시물, 메신저, 광고 등 총 23개 화면 및 기능 개발
           - ConstraintLayout, RecyclerView 도입
           - SQLite를 활용하여 메신저 성능 개선
