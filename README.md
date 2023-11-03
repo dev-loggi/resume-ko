@@ -1,10 +1,10 @@
-# 웹 포트폴리오 - Github Pages
+# Resume (Korean)
 
 ![screenshot](images/demo-screenshot.png)
 
-- Portfolio Github Pages: [dev-loggi.github.io](https://dev-loggi.github.io/)
+- Github Pages Resume Link: https://dev-loggi.github.io/resume-ko/
 - Template: [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
-- Webpage to PDF: [webtopdf](https://webtopdf.com/download)
+- Webpage to PDF: [webtopdf](https://webtopdf.com)
 
 ## Running locally
 
